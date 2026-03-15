@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, Keep Team</rights>
   <subtitle>Hexo theme keep quick starter</subtitle>
   <title>Keep</title>
-  <updated>2026-03-15T12:41:20.407Z</updated>
+  <updated>2026-03-15T12:47:29.081Z</updated>
   <entry>
     <author>
       <name>Keep Team</name>
@@ -23,8 +23,11 @@
     <id>http://example.com/2026/03/10/post/</id>
     <link href="http://example.com/2026/03/10/post/"/>
     <published>2026-03-10T06:46:36.000Z</published>
-    <summary>AI浪潮已经到来，普通人想不被淘汰，唯一的办法就是持续学习并学会使用新工具，否则只能被时代淹没。</summary>
+    <summary>
+      <![CDATA[<h2 id="普通人的定义"><a href="#普通人的定义" class="headerlink" title="普通人的定义"></a>普通人的定义</h2><blockquote>
+<p><a class="link"   href="https://blog.hzop]]>
+    </summary>
     <title>全球AI狂潮，普通人何去何从</title>
-    <updated>2026-03-15T12:41:20.407Z</updated>
+    <updated>2026-03-15T12:47:29.081Z</updated>
   </entry>
 </feed>
