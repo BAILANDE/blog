@@ -5,7 +5,7 @@ if (!window.runningTime) {
         tempDiv.setAttribute('class', 'info-item default')
         infoBox.appendChild(tempDiv)
 
-        const since = '2020-01-01 00:00:00'
+        const since = '2024-01-01 00:00:00'
         const formatTimestamp = (timestamp) => {
             const now = Date.now()
             const timeDiff = Math.abs(now - timestamp)
