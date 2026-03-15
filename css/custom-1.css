@@ -1,0 +1,36 @@
+/* ===== 全站字体设置 ===== */
+
+body{
+    font-family: "STKaiti","KaiTi","LXGW WenKai","Noto Serif SC",serif;
+    font-size:18px;
+}
+
+/* ===== 文章排版优化 ===== */
+
+.keep-markdown-body{
+    font-family: "STKaiti","KaiTi","LXGW WenKai","Noto Serif SC",serif;
+    font-size:18px;
+    line-height:1.8;
+    letter-spacing:0.02em;
+}
+
+/* ===== Markdown 标题大小 ===== */
+
+.keep-markdown-body h1{font-size:38px;}
+.keep-markdown-body h2{font-size:34px;}
+.keep-markdown-body h3{font-size:30px;}
+.keep-markdown-body h4{font-size:26px;}
+.keep-markdown-body h5{font-size:22px;}
+.keep-markdown-body h6{font-size:20px;}
+
+/* ===== 标题间距优化 ===== */
+
+.keep-markdown-body h1,
+.keep-markdown-body h2,
+.keep-markdown-body h3,
+.keep-markdown-body h4,
+.keep-markdown-body h5,
+.keep-markdown-body h6{
+    margin-top:1.4em;
+    margin-bottom:0.6em;
+}
