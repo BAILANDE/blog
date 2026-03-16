@@ -1,18 +1,25 @@
+/* ===== 加载楷体网络字体（解决 iOS 不显示楷体） ===== */
+
+@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.6.0/style.css");
+
+
 /* ===== 全站字体设置 ===== */
 
 body{
-    font-family: "STKaiti","KaiTi","LXGW WenKai","Noto Serif SC",serif;
+    font-family: "LXGW WenKai","STKaiti","KaiTi","PingFang SC","Noto Serif SC",serif;
     font-size:18px;
 }
+
 
 /* ===== 文章排版优化 ===== */
 
 .keep-markdown-body{
-    font-family: "STKaiti","KaiTi","LXGW WenKai","Noto Serif SC",serif;
+    font-family: "LXGW WenKai","STKaiti","KaiTi","PingFang SC","Noto Serif SC",serif;
     font-size:18px;
     line-height:1.8;
     letter-spacing:0.02em;
 }
+
 
 /* ===== Markdown 标题大小 ===== */
 
@@ -22,6 +29,7 @@ body{
 .keep-markdown-body h4{font-size:26px;}
 .keep-markdown-body h5{font-size:22px;}
 .keep-markdown-body h6{font-size:20px;}
+
 
 /* ===== 标题间距优化 ===== */
 
