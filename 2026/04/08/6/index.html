@@ -325,7 +325,7 @@
             
                 <span class="meta-info-item post-update-date">
                     <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                    <span class="datetime" data-updated="Wed May 13 2026 09:14:02 GMT+0800">2026-05-13 09:14:02</span>
+                    <span class="datetime" data-updated="Tue Jun 30 2026 09:24:33 GMT+0800">2026-06-30 09:24:33</span>
                 </span>
             
         
@@ -654,93 +654,58 @@
                 </div>
 
                 
-                        .post-copyright-info-container {
-  width 100%
-  margin-top 1rem
-  background var(--background-color-2)
-  border-radius calc(var(--box-border-radius) * 0.6)
+                        
+<div class="post-copyright-info-container border-box">
+    <div class="copyright-info-content border-box">
+        <div class="copyright-info-top border-box">
+            <div class="copyright-post-title border-box text-ellipsis">
+                ​关于我，以及这些年的胡言乱语
+            </div>
 
-  .copyright-info-content {
-    width 100%
-    padding 1.3rem
-    overflow hidden
-    font-size 1rem
+            <div class="copyright-post-link border-box text-ellipsis">
+                2026/04/08/6/
+            </div>
+        </div>
 
+        <div class="copyright-info-bottom border-box">
+            <div class="copyright-post-author bottom-item">
+                <div class="type">
+                    作者
+                </div>
+                <div class="content">Ding</div>
+            </div>
 
-    .copyright-info-top {
-      width 100%
-
-      .copyright-post-title {
-        width 100%
-        color var(--text-color-3)
-        font-size 1.1rem
-      }
-
-      .copyright-post-link {
-        width 100%
-        margin-top 0.2rem
-        color var(--text-color-4)
-      }
-    }
-
-
-    .copyright-info-bottom {
-      display flex
-      justify-content flex-start
-      margin-top 1rem
-
-      .bottom-item {
-        z-index $z-index-10
-        margin-right 1.2rem
-
-        .type {
-          color var(--text-color-4)
-        }
-
-        .content {
-          margin-top 0.2rem
-          color var(--text-color-3)
-        }
-      }
+            <div class="post-time bottom-item">
+                <div class="type">
+                    发布于
+                </div>
+                <div class="content">2026-04-08 10:48</div>
+            </div>
 
 
-      .post-license {
-        .content {
-          i {
-            font-size 1.1rem
-          }
-        }
-      }
-    }
+            <div class="post-license bottom-item">
+                <div class="type">
+                    许可
+                </div>
+                <div class="content tooltip" data-tooltip-content="CC BY-NC-SA 4.0">
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">
+                        
+                            <i class="fa-brands fa-creative-commons"></i>
+                            <i class="fa-brands fa-creative-commons-by"></i>
+                            <i class="fa-brands fa-creative-commons-nc"></i>
+                            <i class="fa-brands fa-creative-commons-sa"></i>
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
 
-    .copyright-bg {
-      position absolute
-      top 50%
-      right 2rem
-      color var(--copyright-icon-bg-color)
-      font-size 14rem
-      transform translateY(-50%)
-
-      +keep-mobile() {
-        font-size 12rem
-      }
-    }
-  }
-
-
-  .copy-copyright-info {
-    position absolute
-    top 0.5rem
-    right 0.5rem
-    box-sizing border-box
-    padding 0.3rem
-    cursor pointer
-
-    i {
-      color var(--text-color-3)
-    }
-  }
-}
+        <i class="copyright-bg fa-solid fa-copyright"></i>
+    </div>
+    <div class="copy-copyright-info flex-center tooltip" data-tooltip-content="复制版权信息" data-tooltip-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
+    </div>
+</div>
 
                 
 
